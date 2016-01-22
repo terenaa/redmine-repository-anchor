@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Redmine repository hyperlink
+// @name         Redmine repository anchor
 // @namespace    http://www.the-world.pl/
 // @version      0.1
 // @author       Krzysztof Janda <terenaa@the-world.pl>
-// @match        http://redmine.krakvet.pl/issues/*
+// @match        http://redmine.*/issues/*
 // @grant        none
 // ==/UserScript==
 /* jshint -W097 */
