@@ -14,8 +14,8 @@ var isRepositoryActive = (document.getElementsByClassName('repository').length =
 if (isRepositoryActive) {
     var taskNumberElement = document.getElementsByTagName('h2')[0],
         projectName = document.getElementsByTagName('h1')[0].innerText.toLowerCase(),
-        // categoryName = document.getElementsByClassName('category')[1].innerText,
-        categoryName = document.getElementsByClassName('category')[1].innerText.indexOf('zoofast') !== false ? 'zoofast.tld' : 'krakvet.pl', // KV only!
+        categoryName = document.getElementsByClassName('category')[1].innerText,
+        categoryName = categoryName.indexOf('zoofast') !== false ? 'zoofast.tld' : 'krakvet.pl', // KV only!
         taskNumberElementParts = taskNumberElement.innerText.split('#'),
         anchor = document.createElement('a');
     
